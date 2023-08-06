@@ -1,0 +1,64 @@
+section{
+
+    border-top: 0.5rem solid rgb(61, 60, 60) ;
+    height: 36.5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+
+}
+
+section div{
+
+    width: 40%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+
+    
+
+}
+
+section #section-right-container img{
+    width: 90%;
+    height: 98%;
+    align-self: flex-start;
+    z-index: 10;
+    overflow: hidden;
+}
+
+section div h2{
+    font-size: 3rem;
+    font-weight: 900;
+    align-self: flex-start;
+    width: 100%;
+
+
+}
+
+section div p{
+    font-size: 1.5rem;
+    width: 100%;
+    line-height: 2rem;
+    align-self: flex-start;
+
+}
+
+section #section-right-container video{
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    width: 74%;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}

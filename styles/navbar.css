@@ -1,0 +1,64 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+nav div{
+width: 35%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+nav div:nth-child(2){
+
+    gap: 2rem;
+
+}
+
+nav div:nth-child(2) button{
+    width: 15%;
+    height: 40%;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+nav div:nth-child(2) button:hover{
+    background-color: rgb(219, 14, 14);
+    cursor: pointer;
+}
+
+#NetflixLogo{
+    width: 30%;
+    mix-blend-mode:multiply;
+}
+
+select{
+    width: 23%;
+
+
+    background: transparent;
+    color: white;
+    padding: 0.5rem 0.3rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+}
+select:focus{
+    border: 3px solid white;
+    outline: none;
+}
+
+select option{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.fa-light{
+    color: white;
+}
