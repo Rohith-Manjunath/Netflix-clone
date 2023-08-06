@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7),rgba(0,0,0,0.4),rgba(0,0,0,0.7),rgba(0,0,0,0.9)), url('../assets/images/navbar-images/Netflix-Background.jpg');
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+nav div{
+width: 35%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+nav div:nth-child(2){
+
+    gap: 2rem;
+
+}
+
+nav div:nth-child(2) button{
+    width: 15%;
+    height: 40%;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+nav div:nth-child(2) button:hover{
+    background-color: rgb(219, 14, 14);
+    cursor: pointer;
+}
+
+#NetflixLogo{
+    width: 30%;
+    mix-blend-mode: multiply;
+    color: red;
+}
+
+select{
+    width: 23%;
+
+
+    background: transparent;
+    color: white;
+    padding: 0.5rem 0.3rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+}
+select:focus{
+    border: 3px solid white;
+    outline: none;
+}
+
+select option{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.fa-light{
+    color: white;
+}
+
+#hero-section{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    flex-direction: column;
+    gap: 1.5rem;
+
+
+}
+
+#hero-section p{
+
+    font-size: 1.4rem;
+
+}
+#hero-section h1{
+    font-size: 3rem;
+    font-weight:900;
+}
+#hero-section form{
+    width: 40%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    position: relative;
+}
+#hero-section form input{
+    outline: none;
+    border: 1px solid grey;
+    height: 100%;
+    width: 65%;
+border-radius: 0.3rem;
+background-color: transparent;
+padding: 1rem 1rem;
+font-size: 1rem;
+color: white;
+}
+
+#placeholder{
+    color: rgb(201, 196, 196);
+    transition: all 0.3s;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    font-size: 1rem;
+    
+}
+
+#hero-section form input:focus ~ #placeholder,
+#hero-section form input:valid ~ #placeholder{
+
+transform: translate(-5px ,-17px);
+font-size: 0.7rem;
+padding: 0.2rem;
+
+}
+
+#hero-section form input:focus{
+    outline: 2px solid white;
+    border: 1px solid red;
+}
+
+#hero-section form button{
+
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 35%;
+    height: 100%;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+transition: all 0.3s;
+
+}
+
+#hero-section form button:hover{
+    background-color: rgb(219, 14, 14);
+cursor: pointer;
+}
