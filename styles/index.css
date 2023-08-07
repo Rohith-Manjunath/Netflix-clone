@@ -19,8 +19,11 @@ body{
     background-repeat: no-repeat;
     height: 102vh;
     color: white;
-    overflow-x: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100vw;
 }
 
-
-
+html{
+overflow: hidden;
+}

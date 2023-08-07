@@ -182,3 +182,135 @@ transition: all 0.3s;
     background-color: rgb(219, 14, 14);
 cursor: pointer;
 }
+
+@media (320px <= width <=480px) {
+
+
+        
+        .faq-container {
+            width:80% ;
+           
+        }
+        
+     
+        
+        .faq-container h2{
+            font-size: 2rem;
+            font-weight: 900;
+        }
+        
+      
+        .question > label{
+        
+            font-size: 1.2rem;
+          
+            padding: 1rem;
+           
+            
+        
+        }
+        
+        .question > label:hover{
+            background-color: rgb(81, 77, 77);
+            cursor: pointer;
+        
+           
+        }
+        
+        .question > label::after{
+            font-size: 2rem;
+           
+        }
+        
+      
+        
+        .question > .accordian-content{
+           
+        font-size: 1.2rem;
+          
+            line-height: 1.8rem;
+        
+        }
+        
+      
+        
+     
+        
+      
+        
+        .membership p{
+            font-size: 1.1rem;
+            text-align: center;
+        }
+        
+        .membership form{
+            width: 100%;
+            height: 6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+            position: relative;
+        }
+        .membership form input{
+           
+            height: 100%;
+            width: 90%;
+       
+        }
+        
+        #placeholder{
+            
+            left: 0rem;
+       
+            
+        }
+        
+        
+       
+        
+        .membership form button{
+  
+            width: 60%;
+padding: 0.5rem 0;
+            
+        
+        }
+        
+      
+
+}
+
+@media (481px <= width <=768px) { 
+      
+        .membership form{
+            width: 100%;
+            height: 8rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+            position: relative;
+        }
+        .membership form input{
+           
+            height: 5rem;
+            width: 80%;
+       
+        }
+
+        
+        .membership form button{
+  
+            width: 55%;
+            height: 3rem;
+
+            
+        
+        }
+        
+      
+
+}

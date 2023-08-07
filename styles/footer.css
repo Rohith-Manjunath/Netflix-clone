@@ -5,6 +5,7 @@ footer{
     align-items: center;
     justify-content: center;
     border-top: 0.5rem solid rgb(61, 60, 60) ;
+    background-color: black;
 
 }
 
@@ -56,3 +57,34 @@ footer select{
     width: 8rem;
 }
 
+
+@media (320px <= width <= 480px){
+
+    footer{
+        height: auto;
+       
+    
+    }
+
+    
+    
+    footer a{
+        width: 100%;
+    }
+    
+    .services{
+       
+       
+    flex-direction: column;
+    }
+    
+    .services div{
+   
+    flex-direction: column;
+    width: 100%;
+    }
+    
+   
+    
+
+}

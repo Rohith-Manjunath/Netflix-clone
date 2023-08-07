@@ -62,3 +62,169 @@ section #section-right-container video{
 .reverse{
     flex-direction: row-reverse;
 }
+
+@media (320px <= width <= 480px){
+
+    section{
+
+        height: 30rem;
+     
+      
+        flex-direction: column;
+    
+    
+    }
+    
+    section div{
+    
+        width: 100%;
+        
+    }
+
+
+    section #section-right-container img{
+        height: 100%;
+        width: 100%;
+    }
+
+    section #section-right-container video{
+        position: absolute;
+        top: 3.5rem;
+        right: 3rem;
+        width: 74%;
+    }
+    
+    section div h2{
+        font-size: 2rem;
+       text-align: center;
+    
+    
+    }
+    
+    section div p{
+        font-size: 1rem;
+    
+        text-align: center;
+
+    
+    }
+  
+    
+    .reverse{
+        flex-direction: column;
+    }
+
+}
+
+@media (481px <= width <= 768px){
+
+    section{
+
+        height: 40rem;
+        width: 100%;
+     
+      
+        flex-direction: column;
+    
+    
+    }
+    
+    section div{
+    
+        width:80%;
+        height:100%;
+
+        
+    }
+
+    section #section-right-container img{
+        height: 100%;
+        width: 100%;
+    }
+
+    section #section-right-container video{
+        position: absolute;
+        top: 4.5rem;
+        right: 4rem;
+        width: 74%;
+    }
+ 
+    
+    section div h2{
+        font-size: 2rem;
+       text-align: center;
+    
+    
+    }
+    
+    section div p{
+        font-size: 1.4rem;
+    
+        text-align: center;
+
+    
+    }
+  
+    
+    .reverse{
+        flex-direction: column;
+    }
+
+}
+
+@media (769px <= width <= 1200px){
+
+    section{
+
+        height: 30rem;
+        width: 100%;
+     
+      
+        flex-direction: row;
+    
+    
+    }
+    
+    section div{
+    
+        width:80%;
+        height:80%;
+
+        
+    }
+
+    section #section-right-container img{
+        height:100%;
+        width: 100%;
+    }
+
+    section #section-right-container video{
+        position: absolute;
+        top: 5rem;
+        right: 3.5rem;
+        width: 74%;
+        height: 60%;
+    }
+ 
+    
+    section div h2{
+        font-size: 2rem;
+       text-align: center;
+    
+    
+    }
+    
+    section div p{
+        font-size: 1.4rem;
+    
+        text-align: center;
+
+    
+    }
+  
+    
+    .reverse{
+        flex-direction: row;
+    }
+
+}
