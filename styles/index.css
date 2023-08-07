@@ -2,6 +2,7 @@
 @import "./herosection.css";
 @import "./section.css";
 @import "./faq.css";
+@import "./footer.css";
 
 *{
     margin: 0;
@@ -16,8 +17,9 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 102vh;
     color: white;
+    overflow-x: scroll;
 }
 
 
