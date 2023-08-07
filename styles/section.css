@@ -87,13 +87,6 @@ section #section-right-container video{
         width: 100%;
     }
 
-    section #section-right-container video{
-        position: absolute;
-        top: 3.5rem;
-        right: 3rem;
-        width: 74%;
-    }
-    
     section div h2{
         font-size: 2rem;
        text-align: center;
@@ -112,6 +105,7 @@ section #section-right-container video{
     
     .reverse{
         flex-direction: column;
+        padding-top: 1rem;
     }
 
 }
@@ -120,7 +114,7 @@ section #section-right-container video{
 
     section{
 
-        height: 40rem;
+        height: 35rem;
         width: 100%;
      
       
@@ -142,12 +136,7 @@ section #section-right-container video{
         width: 100%;
     }
 
-    section #section-right-container video{
-        position: absolute;
-        top: 4.5rem;
-        right: 4rem;
-        width: 74%;
-    }
+   
  
     
     section div h2{
@@ -198,13 +187,6 @@ section #section-right-container video{
         width: 100%;
     }
 
-    section #section-right-container video{
-        position: absolute;
-        top: 5rem;
-        right: 3.5rem;
-        width: 74%;
-        height: 60%;
-    }
  
     
     section div h2{
