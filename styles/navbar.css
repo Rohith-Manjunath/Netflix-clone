@@ -13,13 +13,15 @@ justify-content: center;
 }
 nav div:nth-child(2){
 
-    gap: 2rem;
+    gap: 1rem;
+    margin-right: 2rem;
+    width: 45%;
 
 }
 
 
 nav div:nth-child(2) button{
-    width: 15%;
+    width: 7rem;
     height: 40%;
     outline: none;
     border: none;
@@ -36,11 +38,11 @@ nav div:nth-child(2) button:hover{
 }
 
 #NetflixLogo{
-    width: 40%;
+    width: 12rem;
 }
 
 select{
-    width: 23%;
+    width: 9rem;
 
 
     background: transparent;
