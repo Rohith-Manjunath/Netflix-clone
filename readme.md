@@ -34,4 +34,4 @@ The Netflix Clone project is built using the following technologies:
 - CSS3: Utilized for styling the application and creating layout designs.
 
 ## Live-link
-[Netflix Clone](https://netflix-nett.netlify.app/)
+[Netflix Clone](https://netflix-clone-rohith-net.netlify.app/)
