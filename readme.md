@@ -35,3 +35,4 @@ The Netflix Clone project is built using the following technologies:
 
 ## Live-link
 [Netflix Clone](https://64d126c9b28d1e0084d23fb1--kaleidoscopic-frangipane-067b94.netlify.app/)
+
