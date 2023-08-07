@@ -1,6 +1,7 @@
 @import "./navbar.css";
 @import "./herosection.css";
 @import "./section.css";
+@import "./faq.css";
 
 *{
     margin: 0;

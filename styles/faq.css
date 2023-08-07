@@ -1,0 +1,184 @@
+#faq{
+
+width: 100%;
+height: 62rem;
+background-color: black;
+border-top: 0.5rem solid rgb(61, 60, 60) ;
+display: flex;
+
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.faq-container {
+    width:75% ;
+    height: 80%;
+    display: flex;
+align-items: center;
+flex-direction: column;
+gap: 1rem;
+}
+
+.questions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq-container h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.question{
+    width: 100%;
+    border-top: 8px solid black;
+}
+
+.question > label{
+
+    font-size: 1.5rem;
+    background-color: rgb(45, 43, 43);
+    width: 100%;
+    display: block;
+    padding: 1.8rem;
+    transition: all 0.4s;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.question > label:hover{
+    background-color: rgb(81, 77, 77);
+    cursor: pointer;
+
+   
+}
+
+.question > label::after{
+    content: "+";
+    font-size: 3.5rem;
+    position: absolute;
+    right:0;
+    margin-right: 2rem;
+    transition: all 0.4s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.question > .accordian-content{
+    max-height: 0;
+    overflow: hidden;
+font-size: 1.5rem;
+    transition: all 0.4s;
+    background-color: rgb(45, 43, 43);
+    border-top: 2px solid black;
+    line-height: 2rem;
+
+}
+
+.question > .accordian-content p{
+    padding: 1rem;
+   
+}
+
+.question > input[type="radio"]:checked  ~ .accordian-content{
+    max-height: 100vh;
+    padding: 1rem;
+
+
+}
+
+
+
+.question > input[type="radio"]:checked ~ label::after{
+    transform: rotate(45deg);
+}
+
+
+.membership{
+
+margin-top: 3rem;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 1rem;
+}
+
+.membership p{
+    font-size: 1.3rem;
+}
+
+.membership form{
+    width: 55%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    position: relative;
+}
+.membership form input{
+    outline: none;
+    border: 1px solid grey;
+    height: 100%;
+    width: 65%;
+border-radius: 0.3rem;
+background-color: transparent;
+padding: 1rem 1rem;
+font-size: 1rem;
+color: white;
+}
+
+#placeholder{
+    color: rgb(201, 196, 196);
+    transition: all 0.3s;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    font-size: 1rem;
+    
+}
+
+.membership form input:focus ~ #placeholder,
+.membership form input:valid ~ #placeholder{
+
+transform: translate(-5px ,-17px);
+font-size: 0.7rem;
+padding: 0.2rem;
+
+}
+
+.membership form input:focus{
+    outline: 2px solid white;
+    border: 1px solid red;
+}
+
+.membership form button{
+
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 35%;
+    height: 100%;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+transition: all 0.3s;
+
+}
+
+.membership form button:hover{
+    background-color: rgb(219, 14, 14);
+cursor: pointer;
+}
