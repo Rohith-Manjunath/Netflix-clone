@@ -62,3 +62,10 @@ select option{
     text-align: center;
 }
 
+
+@media (320px <=width <=468px){
+    #NetflixLogo{
+        width: 9rem;
+        margin-left: 3rem;
+    }
+}
