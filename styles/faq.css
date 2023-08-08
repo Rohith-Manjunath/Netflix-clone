@@ -163,6 +163,10 @@ padding: 0.2rem;
     border: 1px solid red;
 }
 
+.membership form input::placeholder{
+    opacity: 0;
+}
+
 .membership form button{
 
     outline: none;

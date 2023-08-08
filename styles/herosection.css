@@ -54,6 +54,12 @@ color: white;
     
 }
 
+#hero-section form input::placeholder{
+
+    opacity: 0;
+
+}
+
 #hero-section form input:focus ~ #placeholder,
 #hero-section form input:valid ~ #placeholder{
 
