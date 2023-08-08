@@ -36,7 +36,7 @@ The Netflix Clone project is built using the following technologies:
 
 ## Live-link
 
-
+[Live-Link](https://storied-capybara-93ac7a.netlify.app/)
 
 ## Stay-in-Touch
 
