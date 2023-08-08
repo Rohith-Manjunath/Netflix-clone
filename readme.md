@@ -12,6 +12,7 @@
 - [Features](#features)
 - [Technologies](#technologies)
 - [Live-Link](#Live-link)
+- [Stay-in-Touch](#Stay-in-Touch)
 
 
 ## Introduction
@@ -35,4 +36,13 @@ The Netflix Clone project is built using the following technologies:
 
 ## Live-link
 [Netflix Clone](https://64d13019b28d1e0778d240be--astounding-maamoul-24fe5c.netlify.app/)
+
+## Stay-in-Touch
+
+Connect with me on social media:
+
+[![Twitter](https://img.shields.io/badge/Twitter-YourHandle-blue)](https://twitter.com/rohith_m_kira)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-YourProfile-informational)](https://www.linkedin.com/in/rohith-kira-bab309267/)
+[![Instagram](https://img.shields.io/badge/Instagram-YourUsername-orange)](https://www.instagram.com/rohith_codes/)
+
 
