@@ -41,8 +41,8 @@ The Netflix Clone project is built using the following technologies:
 
 Connect with me on social media:
 
-[![Twitter](https://img.shields.io/badge/Twitter-YourHandle-blue)](https://twitter.com/rohith_m_kira)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-YourProfile-informational)](https://www.linkedin.com/in/rohith-kira-bab309267/)
-[![Instagram](https://img.shields.io/badge/Instagram-YourUsername-orange)](https://www.instagram.com/rohith_codes/)
+[![Twitter](https://img.shields.io/badge/Twitter-rohith_m_kira-blu)](https://twitter.com/rohith_m_kira)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rohith kira-informational)](https://www.linkedin.com/in/rohith-kira-bab309267/)
+[![Instagram](https://img.shields.io/badge/Instagram-rohith_codes-orange)](https://www.instagram.com/rohith_codes/)
 
 
