@@ -18,13 +18,14 @@ padding: 5rem 0;
 gap: 3rem;
 }
 
-.contact span{
-    text-decoration: underline;
+#call a{
     color: rgb(193, 187, 187);
+    text-decoration: underline;
+
 
 }
 
-.contact span:hover{
+#call a:hover{
     cursor: pointer;
     
 }
