@@ -12,6 +12,7 @@
 - [Features](#features)
 - [Technologies](#technologies)
 - [Live-Link](#Live-link)
+- [Stay-in-Touch](#Stay-in-Touch)
 
 
 ## Introduction
@@ -34,5 +35,14 @@ The Netflix Clone project is built using the following technologies:
 - CSS3: Utilized for styling the application and creating layout designs.
 
 ## Live-link
-[Netflix Clone](https://64d13019b28d1e0778d240be--astounding-maamoul-24fe5c.netlify.app/)
+[Netflix Clone](https://64d209810706514910e99a65--stately-flan-c8223b.netlify.app/)
+
+## Stay-in-Touch
+
+Connect with me on social media:
+
+[![Twitter](https://img.shields.io/badge/Twitter-rohith_m_kira-blu)](https://twitter.com/rohith_m_kira)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rohith_kira-informational)](https://www.linkedin.com/in/rohith-kira-bab309267/)
+[![Instagram](https://img.shields.io/badge/Instagram-rohith_codes-orange)](https://www.instagram.com/rohith_codes/)
+
 
