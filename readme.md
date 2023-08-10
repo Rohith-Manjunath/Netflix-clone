@@ -36,7 +36,9 @@ The Netflix Clone project is built using the following technologies:
 
 ## Live-link
 
-[Live-Link](https://aalcsljveufiegieafidigoafgoigfe.netlify.app)
+
+[Live-Link](https://leafy-mooncake-7ee725.netlify.app)
+
 
 ## Stay-in-Touch
 
