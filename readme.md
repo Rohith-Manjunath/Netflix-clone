@@ -11,7 +11,6 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Live-Link](#Live-link)
 - [Stay-in-Touch](#Stay-in-Touch)
 
 
@@ -33,12 +32,6 @@ The Netflix Clone project is built using the following technologies:
 
 - HTML5: Used for structuring the web pages.
 - CSS3: Utilized for styling the application and creating layout designs.
-
-## Live-link
-
-
-[Live-Link](https://leafy-mooncake-7ee725.netlify.app)
-
 
 ## Stay-in-Touch
 
