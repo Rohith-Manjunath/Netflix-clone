@@ -11,6 +11,7 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies](#technologies)
+- [Live-Link](#Live-Link)
 - [Stay-in-Touch](#Stay-in-Touch)
 
 
@@ -32,6 +33,14 @@ The Netflix Clone project is built using the following technologies:
 
 - HTML5: Used for structuring the web pages.
 - CSS3: Utilized for styling the application and creating layout designs.
+
+## Live_Link
+
+[Live-Link]([https://e-commerce-rohith.netlify.app/](https://dancing-rolypoly-12ab0d.netlify.app/))
+
+Picture this: I managed to clone Netflix with such finesse that Google's digital detectives are now slamming their virtual brakes, pointing fingers, and going, "Whoa, phishing alert!" My knockoff Netflix was so suave that even phishers are taking notes. Can't blame Google for getting a bit jealous of my coding charisma! 🎣📺
+
+Turn off security settings and refresh to witness it.
 
 ## Stay-in-Touch
 
