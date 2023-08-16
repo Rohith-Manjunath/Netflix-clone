@@ -36,7 +36,7 @@ The Netflix Clone project is built using the following technologies:
 
 ## Live_Link
 
-[Live-Link]([https://e-commerce-rohith.netlify.app/](https://dancing-rolypoly-12ab0d.netlify.app/))
+[Live-Link](https://dancing-rolypoly-12ab0d.netlify.app/)
 
 Picture this: I managed to clone Netflix with such finesse that Google's digital detectives are now slamming their virtual brakes, pointing fingers, and going, "Whoa, phishing alert!" My knockoff Netflix was so suave that even phishers are taking notes. Can't blame Google for getting a bit jealous of my coding charisma! 🎣📺
 
